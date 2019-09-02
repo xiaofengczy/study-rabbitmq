@@ -3,8 +3,8 @@ package com.study.rabbitmq.consumer;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.DeliverCallback;
-import com.study.rabbitmq.utils.RabbitmqUtils;
 import java.io.IOException;
+import com.study.rabbitmq.utils.RabbitmqUtils;
 
 /**
  * FileName: Recv Description:

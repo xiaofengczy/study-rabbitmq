@@ -2,9 +2,9 @@ package com.study.rabbitmq.producer;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
-import com.study.rabbitmq.utils.RabbitmqUtils;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
+import com.study.rabbitmq.utils.RabbitmqUtils;
 
 /**
  * FileName: Sender Description:
