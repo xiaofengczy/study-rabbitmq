@@ -1,4 +1,4 @@
-package com.study.rabbitmq.consumer;
+package com.study.rabbitmq.pointTopoint.consumer;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
