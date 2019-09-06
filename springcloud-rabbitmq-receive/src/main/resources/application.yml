@@ -1,0 +1,15 @@
+server:
+  port: 8889
+
+spring:
+  rabbitmq:
+    host: localhost
+    password: admin
+    username: admin
+    virtual-host: basic-rabbit
+  cloud:
+    stream:
+      default-binder: rabbit
+      bindings:
+        send_msg:
+          destination: out_msg

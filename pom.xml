@@ -22,7 +22,27 @@
   </build>
   <modules>
     <module>java-rabbitmq</module>
+    <module>spring-rabbitmq</module>
+    <module>springcloud-rabbitmq</module>
+    <module>springcloud-rabbitmq-receive</module>
   </modules>
 
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.6.RELEASE</version>
+  </parent>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>Greenwich.SR1</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
 </project>
